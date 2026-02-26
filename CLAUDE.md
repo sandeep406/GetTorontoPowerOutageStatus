@@ -56,7 +56,7 @@ Kubra StormCenter exposes a tiered API at `https://kubra.io/`:
     "additional_map_layer_data": {}
   },
   "datastatic": {
-    "<INSTANCE_ID>": "regions/05b4d859-2b1a-45d7-ac69-9b5fcfe8013c"
+    "c3ecf8d4-47fb-4846-9070-70cb83d5368d": "regions/05b4d859-2b1a-45d7-ac69-9b5fcfe8013c"
   },
   "controlCenter": { ... }
 }
@@ -72,7 +72,7 @@ Kubra StormCenter exposes a tiered API at `https://kubra.io/`:
 | Identifier | Value | Notes |
 |------------|-------|-------|
 | `VIEW_ID` | `b7626c3d-feea-40d6-ae65-944aa67ffeea` | From `https://kubra.io/stormcenter/views/{VIEW_ID}` |
-| `INSTANCE_ID` | *key in `datastatic` in the currentState response* | First UUID in the `currentState` request URL |
+| `INSTANCE_ID` | `c3ecf8d4-47fb-4846-9070-70cb83d5368d` | First UUID in the `currentState` request URL |
 
 **Finding the `INSTANCE_ID`:**
 - It appears as the **key** in the `datastatic` field of the currentState response

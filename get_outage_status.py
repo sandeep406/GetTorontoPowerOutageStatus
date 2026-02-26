@@ -66,7 +66,7 @@ KNOWN_VIEW_ID = "b7626c3d-feea-40d6-ae65-944aa67ffeea"
 # To confirm: open https://outagemap.torontohydro.com in a browser, open
 # DevTools → Network tab, filter for "currentState", and copy the first UUID
 # from the request URL.  Then set this constant or pass --instance-id <ID>.
-KNOWN_INSTANCE_ID: Optional[str] = None  # set me once you have the ID
+KNOWN_INSTANCE_ID: Optional[str] = "c3ecf8d4-47fb-4846-9070-70cb83d5368d"
 
 HEADERS = {
     "User-Agent": (
